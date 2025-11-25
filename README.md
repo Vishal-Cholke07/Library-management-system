@@ -70,11 +70,13 @@ Step 3: Project Structure
 Ensure your project structure looks like this:
 LibraryManagementSystem/
 ├── src/
+
 │   └── LibraryManagementSystem.java
 ├── lib/
+
 │   └── sqlite-jdbc-3.44.1.0.jar
 ├── bin/
-├── screenshots/
+
 └── README.md
 Step 4: Compile the Application
 bash# Create bin directory if it doesn't exist
@@ -82,21 +84,18 @@ mkdir bin
 
 # Compile
 javac -cp "lib/sqlite-jdbc-3.44.1.0.jar" -d bin src/LibraryManagementSystem.java
+
 Step 5: Run the Application
+
 Windows:
 bashjava -cp "bin;lib/sqlite-jdbc-3.44.1.0.jar" LibraryManagementSystem
-Mac/Linux:
-bashjava -cp "bin:lib/sqlite-jdbc-3.44.1.0.jar" LibraryManagementSystem
+
 Quick Start Scripts
 For Windows (run.bat):
 batch@echo off
 javac -cp "lib/sqlite-jdbc-3.44.1.0.jar" -d bin src/LibraryManagementSystem.java
 java -cp "bin;lib/sqlite-jdbc-3.44.1.0.jar" LibraryManagementSystem
 pause
-For Mac/Linux (run.sh):
-bash#!/bin/bash
-javac -cp "lib/sqlite-jdbc-3.44.1.0.jar" -d bin src/LibraryManagementSystem.java
-java -cp "bin:lib/sqlite-jdbc-3.44.1.0.jar" LibraryManagementSystem
 Make the script executable:
 bashchmod +x run.sh
 ./run.sh
