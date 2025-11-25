@@ -72,8 +72,10 @@ Ensure your project structure looks like this:
 LibraryManagementSystem/
 ├── src/
    └── LibraryManagementSystem.java
+
 ├── lib/
    └── sqlite-jdbc-3.44.1.0.jar
+
 ├── bin/
 
 Step 4: Compile the Application
