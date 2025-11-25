@@ -70,11 +70,12 @@ Step 3: Project Structure
 Ensure your project structure looks like this:
 
 LibraryManagementSystem/
+
 ├── src/
-   └── LibraryManagementSystem.java
+   -LibraryManagementSystem.java
 
 ├── lib/
-   └── sqlite-jdbc-3.44.1.0.jar
+   - sqlite-jdbc-3.44.1.0.jar
 
 ├── bin/
 
