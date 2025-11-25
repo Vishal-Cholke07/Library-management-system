@@ -4,9 +4,13 @@ A comprehensive desktop application built with Java for managing library operati
 📋 Table of Contents
 
 Features
+
 Tech Stack
+
 Installation
+
 Usage
+
 License
 
 
